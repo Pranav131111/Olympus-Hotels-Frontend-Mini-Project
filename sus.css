@@ -1,0 +1,189 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tinos-regular {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tinos-bold {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .tinos-regular-italic {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .tinos-bold-italic {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+/* Body styles */
+body {
+    background-color: #fbffc0;
+    opacity: 0.8;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #fdf5c9 6px ), repeating-linear-gradient( #6b3e2655, #6b3e26 );
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #f4f2f0;
+    color: #333;
+    line-height: 1.6;
+    /* background-image: url('nig.avif');
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+
+
+/* Container for the form */
+#booking-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#f7c08a;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Headings */
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Form input fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+   
+    background-color: #f9f9f9;
+    color: #333;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    appearance: none;
+    -webkit-appearance: none;
+    
+    background-image: url('calendar-icon.png');
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+/* Remove the spinner arrows in Chrome */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-outer-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+/* Placeholder text color */
+input[type="date"]::placeholder {
+    color: #999;
+}
+
+/* Hover effect */
+input[type="date"]:hover {
+    border-color: #08090a;
+}
+
+/* Focus effect */
+input[type="date"]:focus {
+    outline: none;
+    border-color: #f7c08a;
+    box-shadow: 0 0 6px #121111;
+}
+
+
+/* Submit button */
+button[type="submit"] {
+    background-color: #0b0600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #6b3e26;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 480px) {
+    #booking-form {
+        padding: 10px;
+    }
+}
+
+/* footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+} */
+.footer {
+    background-color: #333; /* Greyish black background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: #fff; /* White link color */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Add hover effect for links */
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
